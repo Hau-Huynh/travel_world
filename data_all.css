@@ -1,0 +1,96 @@
+:root
+{
+    --white-color: white;
+    --black-color: black;
+    --text-color: #333;
+    --text-primary: #41c4c9;
+    --lable-primary: #3fd0d4;
+}
+
+*
+{
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+html
+{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.grid__header
+{
+    width: 1366px;
+    max-width: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+.grid__content
+{
+    width: 1366px;
+    max-width: 100%;
+    margin: 0px auto;
+    position: relative;
+    margin-top: 464px;
+}
+.grid_slider
+{
+    width: 100%;
+    max-width: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+@keyframes growth 
+{
+    from
+    {
+        opacity: 0;
+        transform: scaleY(0);
+    }
+    to
+    {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+}
+@keyframes example {
+    0%   {top: 46px;}
+    25%  {top:px;}
+}
+
+@keyframes example1 {
+    0%   {top:0px;}
+    25%  {top:70px;}
+    /* 50%  {top:0px;} */
+}
+
+@keyframes showSubnav2 {
+    from {top: -38px;}
+    to   {top: -16px;}
+}
+
+@keyframes showSubnav3 {
+    from {top: 10px;}
+    to   {top: 70px;}
+}
+@keyframes showTextBox {
+    from {top: 0px;}
+    to   {top: 46px;}
+}
+@keyframes showLable {
+    from {top: 40px;}
+    to   {top: 0px;}
+}
+@keyframes showHeading {
+    from {top: 120px;}
+    to   {top: 0px;}
+}
+@keyframes showText {
+    from {top: 180px;}
+    to   {top: 0px;}
+}
+@keyframes showMonth {
+    from {top: 0px;}
+    to   {top: 47px;}
+}
